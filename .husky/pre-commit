@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# pre-commit钩子，commit之前触发。
+# 通常这一步是来检查暂存区的代码规范，一般使用lint-staged来检查并修改
+
+# 只lint暂存区的文件
+npm run lint:staged

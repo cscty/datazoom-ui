@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+# commit-msg钩子，commit消息提交的时候触发
+# 通常通过commitlint来检查commit-msg提交的信息
+npm run commitlint

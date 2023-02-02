@@ -1,0 +1,30 @@
+{
+    "include": ["examples", "typings", "packages/**/*", "tests"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            // 路径映射
+            "@/*": ["examples/*"],
+            "@packages/*": ["packages/*"]
+        },
+        // 指定ts编译成es的版本
+        "target": "es6",
+        "sourceMap": true,
+        // 模块化解决方案
+        "module": "es6",
+        // 不允许隐式的any
+        "noImplicitAny": false,
+        // 开启所有的严格把关
+        "strict": true,
+        // 编译后的文件是否使用严格模式
+        // "alwaysStrict": true
+        "moduleResolution": "Node",
+        "isolatedModules": false,
+        "allowJs": true,
+        // 跳过所有的d.ts类型检查
+        // "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    }
+}

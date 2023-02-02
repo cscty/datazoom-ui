@@ -1,0 +1,20 @@
+{
+    // 先执行插件，从前往后
+    "plugins": [],
+    // 预设逆序执行
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                // false 不使用任何的polyfill
+                //以下的两个值可能会发生冲突(加入第三方库如果实现了关于polyfill相关的东西，你再实现 会有冲突的问题)，解决：在babel-loader中加入exclude属性
+                // usage 根据源代码需要哪些polyfil就引入相关的api
+                // entry只要是浏览器需要的polyfill都引入(不是根据源代码应用哪些polyfill)
+                "useBuiltIns": "usage",
+                "corejs": "3"
+            }
+        ],
+        "babel-preset-typescript-vue3",
+        "@babel/preset-typescript"
+    ]
+}
