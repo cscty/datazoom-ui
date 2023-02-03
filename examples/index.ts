@@ -10,7 +10,7 @@ const app = createApp(App);
 // app.use(DzUI);
 // 按需引入
 // import "dingzhen-ui/dist/theme-chalk/Button/index.css";
-// import Button from "dingzhen-ui";
+// import {Button} from "dingzhen-ui";
 // app.use(Button);
 
 import "@packages/theme-chalk/index.less";
