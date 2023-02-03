@@ -23,7 +23,7 @@
         "isolatedModules": false,
         "allowJs": true,
         // 跳过所有的d.ts类型检查
-        // "skipLibCheck": true,
+        "skipLibCheck": true,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true
     }

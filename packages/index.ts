@@ -1,6 +1,3 @@
-// css重置
-import "normalize.css";
-
 import type { App, Plugin } from "vue";
 // 统一导出组件
 import Button from "./Button/index";

@@ -1,13 +1,14 @@
 {
-  "name": "dz-ui",
+  "name": "dingzhen-ui",
   "version": "1.0.0",
-  "description": "dz-ui是一款纯真的ui组件库",
-  "private": "false",
+  "description": "dingzhen-ui是一款纯真的ui组件库",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest --coverage",
     "serve": "npm run type-check && webpack server --config webpack.dev.js",
-    "build": "npm run type-check && webpack --config webpack.prod.js",
+    "build:js": "npm run type-check && webpack --config webpack.prod.js",
+    "build:css": "gulp less",
+    "build": "npm run build:js && npm run build:css",
     "type-check": "tsc --noEmit",
     "lint": "npm run eslint && npm run stylelint",
     "lint:fix": "npm run eslint:fix && npm run stylelint:fix",
@@ -17,7 +18,10 @@
     "stylelint:fix": "stylelint \"./**/*.{css,less,vue,html}\" --fix",
     "prepare": "husky install",
     "commitlint": "commitlint --config .commitlintrc.js -es -V",
-    "lint:staged": "lint-staged"
+    "lint:staged": "lint-staged",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "files": [
     "dist"
@@ -52,6 +56,7 @@
     "babel-preset-typescript-vue3": "^2.0.17",
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^4.2.2",
+    "dingzhen-ui": "^1.0.0",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard-with-typescript": "^33.0.0",
@@ -60,12 +65,16 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-vue": "^9.9.0",
     "eslint-webpack-plugin": "^3.2.0",
+    "gulp": "^4.0.2",
+    "gulp-less": "^5.0.0",
+    "gulp-minify-css": "^1.2.4",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^8.0.0",
     "jest": "^26.6.3",
     "less-loader": "^11.1.0",
     "lint-staged": "^13.1.0",
     "mini-css-extract-plugin": "^2.7.2",
+    "normalize.css": "^8.0.1",
     "postcss": "^8.4.21",
     "postcss-html": "^1.5.0",
     "postcss-less": "^6.0.0",
@@ -89,6 +98,7 @@
     "vue-loader": "^16.8.0",
     "vue-style-loader": "^4.1.3",
     "vue-template-compiler": "^2.7.14",
+    "vuepress": "^2.0.0-beta.60",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1",
@@ -96,12 +106,11 @@
   },
   "dependencies": {
     "core-js": "^3.27.2",
-    "normalize.css": "^8.0.1",
     "regenerator-runtime": "^0.13.11",
     "vue": "^3.2.45"
   },
   "lint-staged": {
-    "tests/**/*":"npm run test",
-    "**/*":"npm run lint:fix"
+    "tests/**/*": "npm run test",
+    "**/*": "npm run lint:fix"
   }
 }
