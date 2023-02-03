@@ -113,6 +113,9 @@
   },
   "lint-staged": {
     "tests/**/*": "npm run test",
-    "**/*": "npm run lint:fix"
+    "examples/**/*{js,vue,ts}": "eslint --fix",
+    "examples/**/*{css,less,vue,html}": "stylelint --fix",
+    "packages/**/*{js,vue,ts}": "eslint --fix",
+    "packages/**/*{css,less,vue,html}": "stylelint --fix"
   }
 }
