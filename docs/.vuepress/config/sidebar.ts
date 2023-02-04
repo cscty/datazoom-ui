@@ -9,7 +9,16 @@ export default  [
         ],
     },
     {
-        text: "按钮组件",
-        link: "/componentDocs/button.md",
+        text: "通用组件",
+        children: [
+            {
+                text: "按钮",
+                link: "/componentDocs/button",
+            },
+            {
+                text: "图标",
+                link: "/componentDocs/icon",
+            },
+        ],
     },
 ]

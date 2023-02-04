@@ -4,7 +4,7 @@ export default [
         link: "/",
     },
     {
-        text: "",
+        text: "组件",
         link: "/componentDocs/install.md",
     },
     {
