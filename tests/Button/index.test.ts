@@ -1,8 +1,8 @@
 import { mount } from "@vue/test-utils";
-import DzButton from "@packages/Button/index.vue";
+import Button from "@packages/Button/index.vue";
 describe("测试dz-button", () => {
     it("测试修改了传入不同size是否更换样式", () => {
-        const wrapper = mount(DzButton, {
+        const wrapper = mount(Button, {
             props: {
                 size: "small",
             },
@@ -10,7 +10,7 @@ describe("测试dz-button", () => {
         expect(wrapper.classes()).toContain("dz-button-small");
     });
     it("测试修改了传入不同type是否更换样式", () => {
-        const wrapper = mount(DzButton, {
+        const wrapper = mount(Button, {
             props: {
                 type: "primary",
             },
