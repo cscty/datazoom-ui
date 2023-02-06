@@ -1,4 +1,4 @@
-export default  [
+export default [
     {
         text: "快速上手",
         children: [
@@ -21,4 +21,13 @@ export default  [
             },
         ],
     },
-]
+    {
+        text: "Data 数据展示",
+        children: [
+            {
+                text: "Avatar 头像",
+                link: "/componentDocs/avatar",
+            },
+        ],
+    },
+];
