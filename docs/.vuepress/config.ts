@@ -7,7 +7,7 @@ import path from "path";
 export default {
     title: "dingzheng-ui",
     description: "dingzheng-ui is a pure component library",
-    base:"dingzheng-ui",
+    base: "/dingzheng-ui/",
     theme: defaultTheme({
         // 默认主题配置
         navbar,
