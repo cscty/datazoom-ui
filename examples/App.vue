@@ -4,4 +4,6 @@
     <dz-button size="small"></dz-button>
     <dz-button size="default"></dz-button>
     <dz-icon></dz-icon>
+    <dz-backtop visibilityHeight="200"></dz-backtop>
+    <div style="height: 30000px">sd</div>
 </template>

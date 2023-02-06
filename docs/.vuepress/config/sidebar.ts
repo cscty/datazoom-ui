@@ -1,4 +1,4 @@
-export default  [
+export default [
     {
         text: "快速上手",
         children: [
@@ -21,4 +21,13 @@ export default  [
             },
         ],
     },
-]
+    {
+        text: "导航型组件",
+        children: [
+            {
+                text: "Backtop回到顶部",
+                link: "/componentDocs/backtop",
+            },
+        ],
+    },
+];
