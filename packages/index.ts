@@ -3,10 +3,12 @@ import type { App, Plugin } from "vue";
 import Button from "./Button/index";
 import Icon from "./Icon";
 import Backtop from "./Backtop";
+import Avatar from "./Avatar";
 const components = {
     Button,
     Icon,
     Backtop,
+    Avatar,
 };
 const DzUI: Plugin = {
     install(app: App) {
@@ -16,6 +18,6 @@ const DzUI: Plugin = {
     },
 };
 // 满足用户按需引入需求
-export { Button, Icon, Backtop };
+export { Button, Icon, Backtop, Avatar };
 // 统一暴露
 export default DzUI;

@@ -1,0 +1,45 @@
+.dz-avatar {
+    --dz-avatar-bg-color: #c0c4cc;
+    --dz-avatar-text-size: 14px;
+    --dz-avatar-text-color: #fff;
+    --dz-avatar-circle-border-radius: 50%;
+    --dz-avatar-square-border-radius: 4px;
+    --dz-avatar-size-large: 56px;
+    --dz-avatar-size-small: 24px;
+    --dz-avatar-size: 40px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: var(--dz-avatar-size);
+    height: var(--dz-avatar-size);
+    font-size: var(--dz-avatar-text-size);
+    text-align: center;
+    color: var(--dz-avatar-text-color);
+    background: var(--dz-avatar-bg-color);
+
+    & > img {
+        max-width: 100%;
+        height: 100%;
+    }
+}
+
+.dz-avatar-shape-circle {
+    border-radius: var(--dz-avatar-circle-border-radius);
+}
+
+.dz-avatar-shape-square {
+    border-radius: var(--dz-avatar-square-border-radius);
+}
+
+.dz-avatar-size-small {
+    width: var(--dz-avatar-size-small);
+    height: var(--dz-avatar-size-small);
+}
+
+.dz-avatar-size-large {
+    width: var(--dz-avatar-size-large);
+    height: var(--dz-avatar-size-large);
+}
