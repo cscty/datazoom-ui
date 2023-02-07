@@ -4,11 +4,13 @@ import Button from "./Button/index";
 import Icon from "./Icon";
 import Backtop from "./Backtop";
 import Avatar from "./Avatar";
+import Affix from "./Affix";
 const components = {
     Button,
     Icon,
     Backtop,
     Avatar,
+    Affix,
 };
 const DzUI: Plugin = {
     install(app: App) {
@@ -18,6 +20,6 @@ const DzUI: Plugin = {
     },
 };
 // 满足用户按需引入需求
-export { Button, Icon, Backtop, Avatar };
+export { Button, Icon, Backtop, Avatar, Affix };
 // 统一暴露
 export default DzUI;

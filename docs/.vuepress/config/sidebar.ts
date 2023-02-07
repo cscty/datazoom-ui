@@ -25,6 +25,10 @@ export default [
         text: "导航型组件",
         children: [
             {
+                text: "Affix固钉",
+                link: "/componentDocs/affix",
+            },
+            {
                 text: "Backtop回到顶部",
                 link: "/componentDocs/backtop",
             },
