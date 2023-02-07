@@ -1,5 +1,5 @@
 {
-    "include": ["examples", "typings", "packages/**/*", "tests"],
+    "include": ["examples", "typings", "packages", "tests", "docs"],
     "exclude": ["node_modules"],
     "compilerOptions": {
         "baseUrl": "./",
