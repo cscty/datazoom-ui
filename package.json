@@ -109,9 +109,10 @@
   },
   "dependencies": {
     "-": "^0.0.1",
-    "core-js": "^3.27.2",
     "D": "^1.0.0",
-    "regenerator-runtime": "^0.13.11"
+    "core-js": "^3.27.2",
+    "regenerator-runtime": "^0.13.11",
+    "vue-router": "^4.1.6"
   },
   "lint-staged": {
     "tests/**/*": "npm run test",

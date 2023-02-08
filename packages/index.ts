@@ -5,12 +5,16 @@ import Icon from "./Icon";
 import Backtop from "./Backtop";
 import Avatar from "./Avatar";
 import Affix from "./Affix";
+import Breadcrumb from "./Breadcrumb";
+import BreadcrumbItem from "./Breadcrumb-item";
 const components = {
     Button,
     Icon,
     Backtop,
     Avatar,
     Affix,
+    Breadcrumb,
+    BreadcrumbItem,
 };
 const DzUI: Plugin = {
     install(app: App) {
@@ -20,6 +24,6 @@ const DzUI: Plugin = {
     },
 };
 // 满足用户按需引入需求
-export { Button, Icon, Backtop, Avatar, Affix };
+export { Button, Icon, Backtop, Avatar, Affix, Breadcrumb, BreadcrumbItem };
 // 统一暴露
 export default DzUI;

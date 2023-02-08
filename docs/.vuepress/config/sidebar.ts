@@ -32,6 +32,10 @@ export default [
                 text: "Backtop回到顶部",
                 link: "/componentDocs/backtop",
             },
+            {
+                text: "Breadcrumb面包屑",
+                link: "/componentDocs/breadcrumb",
+            },
         ],
     },
     {

@@ -1,6 +1,7 @@
 // css 重置
 import "normalize.css";
 import { createApp } from "vue";
+
 import App from "@/App.vue";
 const app = createApp(App);
 // 发布至npm后测试
