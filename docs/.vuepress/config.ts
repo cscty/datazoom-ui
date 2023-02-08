@@ -7,8 +7,8 @@ export default defineUserConfig({
     lang: "zh-CN",
     title: "dingzhen-ui",
     description: "dingzhen-ui is a pure component library",
-    head: [["link", { rel: "icon", href: "/logo.jpg" }]],
     base: "/dingzhen-ui/",
+    head: [["link", { rel: "icon", href: "/dingzhen-ui/favicon.ico" }]],
     theme: defaultTheme({
         // 默认主题配置
         navbar,
