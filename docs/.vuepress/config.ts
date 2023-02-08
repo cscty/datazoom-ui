@@ -5,8 +5,9 @@ import { defineUserConfig } from "vuepress";
 import plugin from "./plugin";
 export default defineUserConfig({
     lang: "zh-CN",
-    title: "dingzheng-ui",
-    description: "dingzheng-ui is a pure component library",
+    title: "dingzhen-ui",
+    description: "dingzhen-ui is a pure component library",
+    head: [["link", { rel: "icon", href: "/logo.jpg" }]],
     base: "/dingzhen-ui/",
     theme: defaultTheme({
         // 默认主题配置
