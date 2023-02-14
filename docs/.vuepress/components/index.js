@@ -6,6 +6,8 @@ import Avatar from "./dz-avatar.vue";
 import Affix from "./dz-affix.vue";
 import Breadcrumb from "./dz-breadcrumb.vue";
 import BreadcrumbItem from "./dz-breadcrumb-item.vue";
+import Dropdown from "./dz-dropdown.vue";
+import DropdownItem from "./dz-dropdown-item.vue";
 import Modal from "./dz-modal.vue";
 import Progress from "./dz-progress.vue";
 import Drawer from "./dz-drawer.vue";
@@ -17,6 +19,8 @@ const components = {
     Affix,
     Breadcrumb,
     BreadcrumbItem,
+    Dropdown,
+    DropdownItem,
     Modal,
     Progress,
     Drawer

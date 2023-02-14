@@ -7,6 +7,8 @@ import Avatar from "./Avatar";
 import Affix from "./Affix";
 import Breadcrumb from "./Breadcrumb";
 import BreadcrumbItem from "./Breadcrumb-item";
+import Dropdown from "./Dropdown";
+import DropdownItem from "./Dropdown-item";
 import Modal from "./Modal";
 import Progress from "./Progress";
 import Drawer from "./Drawer";
@@ -18,6 +20,8 @@ const components = {
     Affix,
     Breadcrumb,
     BreadcrumbItem,
+    Dropdown,
+    DropdownItem,
     Modal,
     Progress,
     Drawer,
@@ -38,6 +42,8 @@ export {
     Affix,
     Breadcrumb,
     BreadcrumbItem,
+    Dropdown,
+    DropdownItem,
     Modal,
     Progress,
     Drawer,
