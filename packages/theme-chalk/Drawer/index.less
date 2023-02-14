@@ -1,0 +1,118 @@
+.dz-drawer {
+    &-mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background-color: #00000073;
+        opacity: 0;
+        transition: opacity 0.3s linear, height 0s ease 0.3s;
+        pointer-events: none;
+    }
+
+    &-open &-content {
+        box-shadow: -6px 0 16px -8px #00000014, -9px 0 28px #0000000d, -12px 0 48px 16px #00000008;
+    }
+
+    &-open &-mask {
+        height: 100%;
+        opacity: 1;
+        transition: none;
+        animation: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        pointer-events: auto;
+    }
+
+    &-content {
+        position: absolute;
+        // width: 378px;
+        background-color: #fff;
+        transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1),
+            box-shadow 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+
+        &-right {
+            top: 0;
+            right: 0;
+            height: 100%;
+            // width: ;
+        }
+
+        &-left {
+            top: 0;
+            left: 0;
+            height: 100%;
+        }
+
+        &-bottom {
+            bottom: 0;
+            width: 100%;
+            transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1),
+                box-shadow 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        &-top {
+            top: 0;
+            width: 100%;
+            transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1),
+                box-shadow 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+    }
+
+    .line {
+        position: relative;
+
+        // &::after {
+        //     position: absolute;
+        //     right: 0;
+        //     left: 0;
+        //     height: 1px;
+        //     background: rgb(0 0 0 / 5%);
+        //     content: "";
+        // }
+
+        &--t::after {
+            top: 0;
+        }
+
+        &--b::after {
+            bottom: 0;
+        }
+    }
+
+    &-header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 24px;
+        border-radius: 2px 2px 0 0;
+        color: #000000d9;
+        background: #fff;
+        border-bottom: 1px solid #f0f0f0;
+
+        &-title {
+            // margin: 0;
+            font-size: 16px;
+            text-align: left;
+            box-sizing: border-box;
+            line-height: 24px;
+        }
+
+        &-close {
+            // padding: 0 10px;
+            margin-right: 12px;
+            margin-left: -10px;
+            color: #00000073;
+            cursor: pointer;
+        }
+    }
+
+    &-body {
+        overflow: auto;
+        padding: 24px;
+        font-size: 14px;
+        flex-grow: 1;
+        line-height: 1.5715;
+        word-wrap: break-word;
+    }
+}

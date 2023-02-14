@@ -51,4 +51,21 @@ export default [
             },
         ],
     },
+    {
+        text: "反馈型组件",
+        children: [
+            {
+                text: "Modal",
+                link: "/componentDocs/modal",
+            },
+            {
+                text: "Progress",
+                link: "/componentDocs/progress",
+            },
+            {
+                text: "Drawer",
+                link: "/componentDocs/drawer"
+            }
+        ]
+    }
 ];

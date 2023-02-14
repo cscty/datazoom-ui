@@ -9,6 +9,9 @@ import Breadcrumb from "./Breadcrumb";
 import BreadcrumbItem from "./Breadcrumb-item";
 import Dropdown from "./Dropdown";
 import DropdownItem from "./Dropdown-item";
+import Modal from "./Modal";
+import Progress from "./Progress";
+import Drawer from "./Drawer";
 const components = {
     Button,
     Icon,
@@ -19,6 +22,9 @@ const components = {
     BreadcrumbItem,
     Dropdown,
     DropdownItem,
+    Modal,
+    Progress,
+    Drawer,
 };
 const DzUI: Plugin = {
     install(app: App) {
@@ -28,6 +34,19 @@ const DzUI: Plugin = {
     },
 };
 // 满足用户按需引入需求
-export { Button, Icon, Backtop, Avatar, Affix, Breadcrumb, BreadcrumbItem, Dropdown, DropdownItem };
+export {
+    Button,
+    Icon,
+    Backtop,
+    Avatar,
+    Affix,
+    Breadcrumb,
+    BreadcrumbItem,
+    Dropdown,
+    DropdownItem,
+    Modal,
+    Progress,
+    Drawer,
+};
 // 统一暴露
 export default DzUI;
