@@ -6,6 +6,9 @@ import Avatar from "./dz-avatar.vue";
 import Affix from "./dz-affix.vue";
 import Breadcrumb from "./dz-breadcrumb.vue";
 import BreadcrumbItem from "./dz-breadcrumb-item.vue";
+import Modal from "./dz-modal.vue";
+import Progress from "./dz-progress.vue";
+import Drawer from "./dz-drawer.vue";
 const components = {
     Button,
     Icon,
@@ -13,7 +16,10 @@ const components = {
     Avatar,
     Affix,
     Breadcrumb,
-    BreadcrumbItem
+    BreadcrumbItem,
+    Modal,
+    Progress,
+    Drawer
 };
 const DzUI = {
     install(app) {

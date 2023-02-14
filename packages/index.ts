@@ -7,6 +7,9 @@ import Avatar from "./Avatar";
 import Affix from "./Affix";
 import Breadcrumb from "./Breadcrumb";
 import BreadcrumbItem from "./Breadcrumb-item";
+import Modal from "./Modal";
+import Progress from "./Progress";
+import Drawer from "./Drawer";
 const components = {
     Button,
     Icon,
@@ -15,6 +18,9 @@ const components = {
     Affix,
     Breadcrumb,
     BreadcrumbItem,
+    Modal,
+    Progress,
+    Drawer,
 };
 const DzUI: Plugin = {
     install(app: App) {
@@ -24,6 +30,17 @@ const DzUI: Plugin = {
     },
 };
 // 满足用户按需引入需求
-export { Button, Icon, Backtop, Avatar, Affix, Breadcrumb, BreadcrumbItem };
+export {
+    Button,
+    Icon,
+    Backtop,
+    Avatar,
+    Affix,
+    Breadcrumb,
+    BreadcrumbItem,
+    Modal,
+    Progress,
+    Drawer,
+};
 // 统一暴露
 export default DzUI;
