@@ -1,0 +1,92 @@
+.dz-dropdown-default {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+
+    ul {
+        font-size: 15px;
+    }
+}
+
+.dz-dropdown-large {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+
+    ul {
+        font-size: 18px;
+    }
+}
+
+.dz-dropdown-small {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 11px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+
+    ul {
+        font-size: 11px;
+    }
+}
+
+.dz-dropdown-ul {
+    position: absolute;
+    z-index: 50;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    max-height: 0;
+    background-color: #fafafa;
+    list-style: none;
+    box-shadow: 0 0 6px rgb(0 0 0 / 12%);
+    transition: all var(--dropdowntimeout);
+
+    &::before {
+        position: absolute;
+        top: -10px;
+        left: 40%;
+        width: 0;
+        height: 0;
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #f7f7f7;
+        // filter: drop-shadow(0 0 5px rgb(0 0 0 / 20%));
+    }
+}
+
+.dz-dropdown-ul-show {
+    position: absolute;
+    z-index: 50;
+    padding: 0;
+    width: 100%;
+    max-height: var(--dropdownmaxheight);
+    background-color: #fafafa;
+    list-style: none;
+    box-shadow: 0 0 6px rgb(0 0 0 / 12%);
+    transition: all var(--dropdowntimeout);
+
+    &::before {
+        position: absolute;
+        top: -10px;
+        left: 40%;
+        width: 0;
+        height: 0;
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #f7f7f7;
+        // filter: drop-shadow(0 0 5px rgb(0 0 0 / 20%));
+    }
+}

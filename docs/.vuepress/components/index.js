@@ -6,6 +6,8 @@ import Avatar from "./dz-avatar.vue";
 import Affix from "./dz-affix.vue";
 import Breadcrumb from "./dz-breadcrumb.vue";
 import BreadcrumbItem from "./dz-breadcrumb-item.vue";
+import Dropdown from "./dz-dropdown.vue";
+import DropdownItem from "./dz-dropdown-item.vue";
 const components = {
     Button,
     Icon,
@@ -13,7 +15,9 @@ const components = {
     Avatar,
     Affix,
     Breadcrumb,
-    BreadcrumbItem
+    BreadcrumbItem,
+    Dropdown,
+    DropdownItem
 };
 const DzUI = {
     install(app) {

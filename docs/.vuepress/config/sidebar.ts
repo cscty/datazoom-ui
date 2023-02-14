@@ -36,6 +36,10 @@ export default [
                 text: "Breadcrumb面包屑",
                 link: "/componentDocs/breadcrumb",
             },
+            {
+                text: "Dropdown下拉菜单",
+                link: "/componentDocs/dropdown",
+            },
         ],
     },
     {
