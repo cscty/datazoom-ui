@@ -1,4 +1,4 @@
-# Progress 对话框
+# Progress 进度条
 
 Progress 告知用户当前状态和预期。
 

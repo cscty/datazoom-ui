@@ -36,6 +36,10 @@ export default [
                 text: "Breadcrumb面包屑",
                 link: "/componentDocs/breadcrumb",
             },
+            {
+                text: "Dropdown下拉菜单",
+                link: "/componentDocs/dropdown",
+            },
         ],
     },
     {
@@ -60,6 +64,23 @@ export default [
             {
                 text: "Result 结果",
                 link: "/componentDocs/result",
+            },
+        ],
+    },
+    {
+        text: "反馈组件",
+        children: [
+            {
+                text: "Drawer 抽屉",
+                link: "/componentDocs/drawer",
+            },
+            {
+                text: "Modal 对话框",
+                link: "/componentDocs/modal",
+            },
+            {
+                text: "Progress 进度条",
+                link: "/componentDocs/progress",
             },
         ],
     },
