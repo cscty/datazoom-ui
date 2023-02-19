@@ -11,6 +11,11 @@ import Empty from "./dz-empty.vue";
 import Result from "./dz-result.vue";
 import Skeleton from "./dz-skeleton.vue";
 import SkeletonItem from "./dz-skeleton-item.vue";
+import Dropdown from "./dz-dropdown.vue";
+import DropdownItem from "./dz-dropdown-item.vue";
+import Modal from "./dz-modal.vue";
+import Progress from "./dz-progress.vue";
+import Drawer from "./dz-drawer.vue";
 const components = {
     Button,
     Icon,
@@ -24,6 +29,11 @@ const components = {
     Result,
     Skeleton,
     SkeletonItem,
+    Dropdown,
+    DropdownItem,
+    Modal,
+    Progress,
+    Drawer
 };
 const DzUI = {
     install(app) {
