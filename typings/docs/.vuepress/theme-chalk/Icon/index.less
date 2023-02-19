@@ -1,0 +1,38 @@
+// 将css写好后，到index.less中使用@import url的方式引入
+// 为了避免样式冲突格式为dz-组件名-...
+.dz-button {
+    border: 1px solid #dcdfe6;
+    border-radius: 5px;
+    line-height: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid #a0cfff;
+        color: #4fa6ff;
+        background-color: #ecf5ff;
+    }
+}
+
+.dz-button + .dz-button {
+    margin-left: 12px;
+}
+
+.dz-button-large {
+    padding: 12px 19px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.dz-button-default {
+    padding: 8px 15px;
+    height: 32px;
+    font-size: 15px;
+}
+
+.dz-button-small {
+    padding: 5px 11px;
+    height: 24px;
+    font-size: 12px;
+}

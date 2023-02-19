@@ -1,0 +1,28 @@
+.dz-breadcrumb {
+    padding: 15px;
+    font-size: 8px;
+
+    & :not(:last-child)::after {
+        margin: 0 7px;
+        content: "/";
+    }
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.dz-breadcrumb-Inclined {
+    & :not(:last-child)::after {
+        content: "/";
+    }
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.dz-breadcrumb-great {
+    & :not(:last-child)::after {
+        content: ">";
+    }
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.dz-breadcrumb-vertical {
+    & :not(:last-child)::after {
+        content: "|";
+    }
+}
