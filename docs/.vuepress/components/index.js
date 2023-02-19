@@ -6,11 +6,11 @@ import Avatar from "./dz-avatar.vue";
 import Affix from "./dz-affix.vue";
 import Breadcrumb from "./dz-breadcrumb.vue";
 import BreadcrumbItem from "./dz-breadcrumb-item.vue";
-import Dropdown from "./dz-dropdown.vue";
-import DropdownItem from "./dz-dropdown-item.vue";
-import Modal from "./dz-modal.vue";
-import Progress from "./dz-progress.vue";
-import Drawer from "./dz-drawer.vue";
+import Badge from "./dz-badge.vue";
+import Empty from "./dz-empty.vue";
+import Result from "./dz-result.vue";
+import Skeleton from "./dz-skeleton.vue";
+import SkeletonItem from "./dz-skeleton-item.vue";
 const components = {
     Button,
     Icon,
@@ -19,11 +19,11 @@ const components = {
     Affix,
     Breadcrumb,
     BreadcrumbItem,
-    Dropdown,
-    DropdownItem,
-    Modal,
-    Progress,
-    Drawer
+    Badge,
+    Empty,
+    Result,
+    Skeleton,
+    SkeletonItem,
 };
 const DzUI = {
     install(app) {

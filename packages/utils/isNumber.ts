@@ -1,4 +1,4 @@
-export function isNumber(n: number) {
+export function isNumber(n: any) {
     return typeof n === "number";
 }
 

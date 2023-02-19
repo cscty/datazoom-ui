@@ -36,10 +36,6 @@ export default [
                 text: "Breadcrumb面包屑",
                 link: "/componentDocs/breadcrumb",
             },
-            {
-                text: "Dropdown下拉菜单",
-                link: "/componentDocs/dropdown",
-            },
         ],
     },
     {
@@ -49,23 +45,22 @@ export default [
                 text: "Avatar 头像",
                 link: "/componentDocs/avatar",
             },
+            {
+                text: "Badge 徽章",
+                link: "/componentDocs/badge",
+            },
+            {
+                text: "Empty 空状态",
+                link: "/componentDocs/empty",
+            },
+            {
+                text: "Skeleton 骨架屏",
+                link: "/componentDocs/skeleton",
+            },
+            {
+                text: "Result 结果",
+                link: "/componentDocs/result",
+            },
         ],
     },
-    {
-        text: "反馈型组件",
-        children: [
-            {
-                text: "Modal",
-                link: "/componentDocs/modal",
-            },
-            {
-                text: "Progress",
-                link: "/componentDocs/progress",
-            },
-            {
-                text: "Drawer",
-                link: "/componentDocs/drawer"
-            }
-        ]
-    }
 ];

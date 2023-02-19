@@ -4,27 +4,27 @@ import Button from "./Button/index";
 import Icon from "./Icon";
 import Backtop from "./Backtop";
 import Avatar from "./Avatar";
+import Badge from "./Badge";
+import Empty from "./Empty";
+import Skeleton from "./Skeleton";
+import SkeletonItem from "./Skeleton/skeleton-item";
+import Result from "./Result";
 import Affix from "./Affix";
 import Breadcrumb from "./Breadcrumb";
 import BreadcrumbItem from "./Breadcrumb-item";
-import Dropdown from "./Dropdown";
-import DropdownItem from "./Dropdown-item";
-import Modal from "./Modal";
-import Progress from "./Progress";
-import Drawer from "./Drawer";
 const components = {
     Button,
     Icon,
     Backtop,
     Avatar,
+    Badge,
+    Empty,
+    Skeleton,
+    SkeletonItem,
+    Result,
     Affix,
     Breadcrumb,
     BreadcrumbItem,
-    Dropdown,
-    DropdownItem,
-    Modal,
-    Progress,
-    Drawer,
 };
 const DzUI: Plugin = {
     install(app: App) {
@@ -42,11 +42,11 @@ export {
     Affix,
     Breadcrumb,
     BreadcrumbItem,
-    Dropdown,
-    DropdownItem,
-    Modal,
-    Progress,
-    Drawer,
+    Badge,
+    Empty,
+    Skeleton,
+    SkeletonItem,
+    Result,
 };
 // 统一暴露
 export default DzUI;

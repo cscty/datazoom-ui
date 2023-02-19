@@ -10,7 +10,7 @@ Avatar 组件用来表示人物或对象，支持图片或者文字作为 Avatar
 <div class="example-demo">
 <div class="col">
 <div class="title">circle</div>
-<div class="demo-basic--circle" style="diplay: flex;">
+<div class="demo-basic--circle" style="display: flex;">
 <div class="block">
 <dz-avatar src="https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png" size="default"></dz-avatar>
 </div>
@@ -27,7 +27,7 @@ Avatar 组件用来表示人物或对象，支持图片或者文字作为 Avatar
 </div>
 <div class="col">
 <div class="title">square</div>
-<div class="demo-basic--circle" style="diplay: flex;">
+<div class="demo-basic--circle" style="display: flex;">
 <div class="block">
 <dz-avatar src="https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png" size="default" shape="square"></dz-avatar>
 </div>
@@ -156,39 +156,46 @@ Avatar 组件用来表示人物或对象，支持图片或者文字作为 Avatar
     </div>
     <style>
         .example {
-            width: 800px;
-            height: 140px;
             padding: 1.5em;
-            box-sizing: border-box;
             border-radius: 4px;
             border: 1px solid #dcdfe6;
+            width: 800px;
+            height: 140px;
+            box-sizing: border-box;
             text-align: center;
         }
+
         .example-demo {
             display: flex;
             flex-wrap: wrap;
         }
+
         .col {
             box-sizing: border-box;
             flex: 0 0 50%;
         }
+
         .col:not(:last-child) {
             border-right: 1px solid #dcdfe6;
         }
+
         .title {
             margin-bottom: 10px;
             font-size: 14px;
             color: #909399;
         }
-        .demo-basic--circle {
+
+        .demo-basic-circle {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
+
         .block {
             display: block;
             flex: 1;
         }
+
         .block:not(:last-child) {
             border-right: 1px solid #dcdfe6;
         }

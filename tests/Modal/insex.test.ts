@@ -7,7 +7,8 @@ describe("测试dz-modal", () => {
                 isShow: false,
             },
         });
-        expect(wrapper.vm.isShow).toBe(false);
+        console.log(wrapper.vm);
+        expect(wrapper.vm.visible).toBe(false);
     });
     // ......一组测试
 });

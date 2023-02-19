@@ -1,0 +1,44 @@
+.dz-empty {
+    --dz-empty-padding: 40px 0;
+    --dz-empty-image-width: 160px;
+    --dz-empty-description-margin-top: 20px;
+    --dz-empty-bottom-margin-top: 20px;
+    --dz-empty-fill-color-0: #fff;
+    --dz-empty-fill-color-1: #fcfcfd;
+    --dz-empty-fill-color-2: #f8f9fb;
+    --dz-empty-fill-color-3: #f7f8fc;
+    --dz-empty-fill-color-4: #eeeff3;
+    --dz-empty-fill-color-5: #edeef2;
+    --dz-empty-fill-color-6: #e9ebef;
+    --dz-empty-fill-color-7: #e5e7e9;
+    --dz-empty-fill-color-8: #e0e3e9;
+    --dz-empty-fill-color-9: #d5d7de;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--dz-empty-padding);
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.dz-empty-image {
+    width: var(--dz-empty-image-width);
+
+    img {
+        user-select: none;
+        width: 100%;
+        height: 100%;
+        vertical-align: top;
+        object-fit: contain;
+    }
+}
+
+.dz-empty-description {
+    margin-top: var(--dz-empty-description-margin-top);
+}
+
+.dz-empty-bottom {
+    margin-top: var(--dz-empty-description-margin-top);
+}
