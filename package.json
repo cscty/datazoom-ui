@@ -1,7 +1,7 @@
 {
-  "name": "dingzhen-ui",
+  "name": "datazoom-ui",
   "version": "1.0.0",
-  "description": "dingzhen-ui是一款纯真的ui组件库",
+  "description": "datazoom-ui是一款快的ui组件库",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest --coverage",
@@ -58,7 +58,7 @@
     "babel-preset-typescript-vue3": "^2.0.17",
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^4.2.2",
-    "dingzhen-ui": "^1.0.0",
+    "datazoom-ui": "^1.0.0",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard-with-typescript": "^33.0.0",

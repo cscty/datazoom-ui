@@ -9,6 +9,6 @@ export default [
     },
     {
         text: "github",
-        link: "https://github.com/cscty/dingzhen-ui",
+        link: "https://github.com/cscty/datazoom-ui",
     },
 ];

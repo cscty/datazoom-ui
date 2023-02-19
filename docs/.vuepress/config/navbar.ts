@@ -5,10 +5,10 @@ export default [
     },
     {
         text: "组件",
-        link: "/componentDocs/install.md",
+        link: "/componentDocs/install",
     },
     {
         text: "github",
-        link: "https://github.com/cscty/dingzhen-ui",
+        link: "https://github.com/cscty/datazoom-ui",
     },
 ];

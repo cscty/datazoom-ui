@@ -12,11 +12,11 @@ export default [
         text: "通用组件",
         children: [
             {
-                text: "按钮",
+                text: "Button 按钮",
                 link: "/componentDocs/button",
             },
             {
-                text: "图标",
+                text: "Icon 图标",
                 link: "/componentDocs/icon",
             },
         ],
@@ -25,19 +25,19 @@ export default [
         text: "导航型组件",
         children: [
             {
-                text: "Affix固钉",
+                text: "Affix 固钉",
                 link: "/componentDocs/affix",
             },
             {
-                text: "Backtop回到顶部",
+                text: "Backtop 回到顶部",
                 link: "/componentDocs/backtop",
             },
             {
-                text: "Breadcrumb面包屑",
+                text: "Breadcrumb 面包屑",
                 link: "/componentDocs/breadcrumb",
             },
             {
-                text: "Dropdown下拉菜单",
+                text: "Dropdown 下拉菜单",
                 link: "/componentDocs/dropdown",
             },
         ],
