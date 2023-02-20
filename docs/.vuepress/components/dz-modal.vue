@@ -33,7 +33,7 @@
 </template>
 <script setup lang="ts">
 import { CSSProperties, VNode } from "vue";
-// import Button from "@packages/Button/index.vue";
+import Button from "./dz-button.vue";
 interface Props {
     visible: boolean;
     title?: string | (() => VueNode) | VueNode;

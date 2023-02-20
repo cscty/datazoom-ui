@@ -1,5 +1,6 @@
 const { merge } = require("webpack-merge");
 const common = require("./webpack.common");
+const TerserPlugin = require("terser-webpack-plugin");
 // 将css代表抽离成一个css文件
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
@@ -45,8 +46,9 @@ module.exports = () => {
             //         },
             //     },
             // },
+            minimize: true, // 开启最小化
             // 压缩css文件
-            minimizer: [new CssMinimizerPlugin()],
+            minimizer: [new CssMinimizerPlugin(), new TerserPlugin({})],
         },
     });
 };

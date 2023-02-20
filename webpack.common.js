@@ -1,6 +1,10 @@
 const path = require("path");
 const { VueLoaderPlugin } = require("vue-loader");
 module.exports = {
+    cache: {
+        type: "filesystem",
+        allowCollectingMemory: true,
+    },
     output: {
         filename: "[name].js",
         // 必须是绝对路径
@@ -19,7 +23,13 @@ module.exports = {
             {
                 test: /\.ts$/,
                 use: [
-                    "babel-loader",
+                    "thread-loader",
+                    {
+                        loader: "babel-loader",
+                        options: {
+                            cacheDirectory: true,
+                        },
+                    },
                     // {
                     //     loader: "ts-loader",
                     //     options: { appendTsSuffixTo: [/\.vue$/] },
