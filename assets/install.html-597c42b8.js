@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-add7f4a4","path":"/componentDocs/install.html","title":"1.安装","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1676822897000,"contributors":[{"name":"cscty","email":"gdufcscty@163.com","commits":2}]},"filePathRelative":"componentDocs/install.md"}');export{t as data};
