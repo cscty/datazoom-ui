@@ -6,11 +6,14 @@ import Avatar from "./dz-avatar.vue";
 import Affix from "./dz-affix.vue";
 import Breadcrumb from "./dz-breadcrumb.vue";
 import BreadcrumbItem from "./dz-breadcrumb-item.vue";
+<<<<<<< HEAD
 import Badge from "./dz-badge.vue";
 import Empty from "./dz-empty.vue";
 import Result from "./dz-result.vue";
 import Skeleton from "./dz-skeleton.vue";
 import SkeletonItem from "./dz-skeleton-item.vue";
+=======
+>>>>>>> parent of bb77a2f (fix: display)
 import Dropdown from "./dz-dropdown.vue";
 import DropdownItem from "./dz-dropdown-item.vue";
 import Modal from "./dz-modal.vue";
@@ -24,11 +27,14 @@ const components = {
     Affix,
     Breadcrumb,
     BreadcrumbItem,
+<<<<<<< HEAD
     Badge,
     Empty,
     Result,
     Skeleton,
     SkeletonItem,
+=======
+>>>>>>> parent of bb77a2f (fix: display)
     Dropdown,
     DropdownItem,
     Modal,

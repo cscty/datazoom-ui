@@ -37,7 +37,11 @@ export default [
                 link: "/componentDocs/breadcrumb",
             },
             {
+<<<<<<< HEAD
                 text: "Dropdown 下拉菜单",
+=======
+                text: "Dropdown下拉菜单",
+>>>>>>> parent of bb77a2f (fix: display)
                 link: "/componentDocs/dropdown",
             },
         ],
@@ -49,19 +53,21 @@ export default [
                 text: "Avatar 头像",
                 link: "/componentDocs/avatar",
             },
+        ],
+    },
+    {
+        text: "反馈型组件",
+        children: [
             {
-                text: "Badge 徽章",
-                link: "/componentDocs/badge",
+                text: "Modal",
+                link: "/componentDocs/modal",
             },
             {
-                text: "Empty 空状态",
-                link: "/componentDocs/empty",
+                text: "Progress",
+                link: "/componentDocs/progress",
             },
             {
-                text: "Skeleton 骨架屏",
-                link: "/componentDocs/skeleton",
-            },
-            {
+<<<<<<< HEAD
                 text: "Result 结果",
                 link: "/componentDocs/result",
             },
@@ -84,4 +90,11 @@ export default [
             },
         ],
     },
+=======
+                text: "Drawer",
+                link: "/componentDocs/drawer"
+            }
+        ]
+    }
+>>>>>>> parent of bb77a2f (fix: display)
 ];
